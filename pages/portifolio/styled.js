@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const PortifolioStyled = styled.div`
+const PortifolioStyled = styled.div`
   padding: ${({ theme }) => theme.spacing.sm} ${({ theme }) => theme.spacing.xl};
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding: ${({ theme }) => theme.spacing.md};
@@ -9,6 +9,8 @@ export const PortifolioStyled = styled.div`
     padding: ${({ theme }) => theme.spacing.sm};
   }
 `
+export default PortifolioStyled
+
 export const PortifolioReposStyled = styled.article`
   .repo-content {
     margin-top: ${({ theme }) => theme.spacing.xl};

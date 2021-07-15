@@ -1,4 +1,5 @@
-import { HomeStyled, HomeDescriptionStyled, HomeIconsStyled } from './styled'
+import { HomeDescriptionStyled, HomeIconsStyled } from './styled'
+import HomeStyled from './styled'
 import Link from 'next/link'
 import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import Particle from '../../components/Particle'

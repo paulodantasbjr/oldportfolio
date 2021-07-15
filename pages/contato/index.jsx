@@ -1,4 +1,5 @@
-import { ContactStyled, ContactContainerStyled } from './styled'
+import { ContactContainerStyled } from './styled'
+import ContactStyled from './styled'
 import { Title } from '../../components/Title'
 import { Button } from '../../components/Button'
 import { ContactItem } from '../../components/ContactItem'

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ResumeStyled = styled.div`
+const ResumeStyled = styled.div`
   padding: ${({ theme }) => theme.spacing.sm} ${({ theme }) => theme.spacing.xl};
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding: ${({ theme }) => theme.spacing.md};
@@ -9,3 +9,5 @@ export const ResumeStyled = styled.div`
     padding: ${({ theme }) => theme.spacing.sm};
   }
 `
+
+export default ResumeStyled

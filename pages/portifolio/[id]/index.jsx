@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { RepoStyled } from './styled'
+import RepoStyled from './styled'
 
 const Repo = ({ repo }) => {
   const { isFallback } = useRouter()

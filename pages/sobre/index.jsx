@@ -1,4 +1,4 @@
-import { AboutStyled } from './styled'
+import AboutStyled from './styled'
 import { AboutDescription } from '../../components/AboutDescription'
 import { AboutServices } from '../../components/AboutServices'
 import { AboutReviews } from '../../components/AboutReviews'

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HomeStyled = styled.article`
+const HomeStyled = styled.article`
   width: 100%;
   height: 100vh;
   position: relative;
@@ -9,6 +9,8 @@ export const HomeStyled = styled.article`
     height: 100vh;
   }
 `
+export default HomeStyled
+
 export const HomeDescriptionStyled = styled.div`
   position: absolute;
   top: 50%;

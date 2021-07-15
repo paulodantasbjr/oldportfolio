@@ -1,8 +1,5 @@
-import {
-  PortifolioStyled,
-  PortifolioReposStyled,
-  PortifolioPaginateStyled,
-} from './styled'
+import { PortifolioReposStyled, PortifolioPaginateStyled } from './styled'
+import PortifolioStyled from './styled'
 import { PortifolioCard } from '../../components/PortifolioCard'
 import { Title } from '../../components/Title'
 import ReactPaginate from 'react-paginate'

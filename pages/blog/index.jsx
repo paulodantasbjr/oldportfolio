@@ -1,4 +1,4 @@
-import { BlogStyled } from './styled'
+import BlogStyled from './styled'
 
 const Blog = () => {
   return (

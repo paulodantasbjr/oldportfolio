@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ContactStyled = styled.div`
+const ContactStyled = styled.div`
   padding: ${({ theme }) => theme.spacing.sm} ${({ theme }) => theme.spacing.xl};
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding: ${({ theme }) => theme.spacing.md};
@@ -9,6 +9,7 @@ export const ContactStyled = styled.div`
     padding: ${({ theme }) => theme.spacing.sm};
   }
 `
+export default ContactStyled
 
 export const ContactContainerStyled = styled.article`
   .contact-content {
