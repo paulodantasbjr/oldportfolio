@@ -3,9 +3,11 @@ import styled from 'styled-components'
 const ContactStyled = styled.div`
   padding: ${({ theme }) => theme.spacing.sm} ${({ theme }) => theme.spacing.xl};
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+    width: 100%;
     padding: ${({ theme }) => theme.spacing.md};
   }
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.xs}) {
+    width: 100%;
     padding: ${({ theme }) => theme.spacing.sm};
   }
 `

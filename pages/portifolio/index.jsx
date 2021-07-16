@@ -46,7 +46,7 @@ export default Portifolio
 export const getStaticProps = async () => {
   const res = await fetch('https://api.github.com/users/paulodantasrj/repos')
   const data = await res.json()
-
+  console.log(data)
   return {
     props: {
       repos: data,

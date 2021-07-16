@@ -2,8 +2,20 @@ import styled from 'styled-components'
 
 export const ContainerStyled = styled.div`
   position: relative;
-  @media screen and (max-width: ${({ theme }) => theme.breakpoints.sm}) {
+
+  .ham-burger-menu {
     position: absolute;
+    top: 5px;
+    right: 5%;
+    z-index: 10;
+    button {
+      padding: 0;
+      margin: 0;
+    }
+    svg {
+      color: ${({ theme }) => theme.mode.buttons.active};
+      font-size: ${({ theme }) => theme.size.xl};
+    }
   }
   .container-switch {
     box-shadow: ${({ theme }) => theme.shadow.main};
@@ -11,8 +23,9 @@ export const ContainerStyled = styled.div`
     border-radius: 5px;
     position: absolute;
     top: 5px;
-    right: 20%;
+    right: 30%;
     z-index: 10;
+
     .toggle-switch {
       color: blue;
     }
@@ -30,9 +43,11 @@ export const SidebarStyled = styled.section`
   overflow: hidden;
   transition: all 0.4s ${({ theme }) => theme.transitions.easeInOut};
   border-right: 1px solid ${({ theme }) => theme.mode.border.dark};
-  @media screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
-    transform: translateX(-100%);
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+    transform: ${({ navToggle }) =>
+      navToggle ? 'translateX(0)' : 'translateX(-200%)'};
     z-index: 20;
+    height: 100%;
   }
 `
 export const MainStyled = styled.section`

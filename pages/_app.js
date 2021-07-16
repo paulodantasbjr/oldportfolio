@@ -6,6 +6,7 @@ import { Layout } from '../styles/Layout'
 
 export default function App({ Component, pageProps }) {
   const [theme, setTheme] = useState('dark')
+  const [navToggle, setNavToggle] = useState(false)
 
   const themeToggler = () => {
     theme === 'light' ? setTheme('dark') : setTheme('light')
@@ -14,7 +15,11 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
-      <Layout themeToggler={themeToggler}>
+      <Layout
+        themeToggler={themeToggler}
+        setNavToggle={setNavToggle}
+        navToggle={navToggle}
+      >
         <Component {...pageProps} />
       </Layout>
     </ThemeProvider>
