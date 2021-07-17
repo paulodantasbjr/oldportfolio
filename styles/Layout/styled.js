@@ -3,13 +3,18 @@ import styled from 'styled-components'
 export const ContainerStyled = styled.div`
   position: relative;
 
-  .ham-burger-menu {
+  .container-hamburguer {
+    box-shadow: ${({ theme }) => theme.shadow.main};
+    background-color: ${({ theme }) => theme.mode.background.dark};
+    border-radius: 5px;
     position: absolute;
     top: 5px;
-    right: 5%;
+    right: 2%;
     z-index: 10;
     display: none;
-
+    @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {
+      display: block;
+    }
     button {
       padding: 0;
       margin: 0;
@@ -25,12 +30,8 @@ export const ContainerStyled = styled.div`
     border-radius: 5px;
     position: absolute;
     top: 5px;
-    right: 30%;
+    right: 20%;
     z-index: 10;
-
-    .toggle-switch {
-      color: blue;
-    }
   }
 `
 export const SidebarStyled = styled.section`

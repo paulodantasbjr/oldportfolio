@@ -18,7 +18,7 @@ export const ResumeCareer = () => {
           title={'Analista de processos de dados'}
           subTitle={'Stefanini Consultoria e Assessoria em informatica S/A'}
           text={
-            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '
+            'Atuando na gestão dos indicadores junto a Liderança nas reuniões de planejamento estratégico na elaboração e revisão de documentação dos processos, procedimentos e fluxos operacionais. Atuando na melhoria contínua de forma consultiva, trazendo métodos para o desenvolvimento de trabalho.'
           }
         />
         <ResumeCareerItem

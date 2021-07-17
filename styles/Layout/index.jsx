@@ -4,15 +4,20 @@ import { Switch } from '@material-ui/core'
 import { Profile } from '../../components/SidebarProfile'
 import { Footer } from '../../components/Footer'
 import { Nav } from '../../components/SidebarNav'
-import { MenuBurguer } from '../../components/MenuBurguer'
+import MenuIcon from '@material-ui/icons/Menu'
+import IconButton from '@material-ui/core/IconButton'
 
 export const Layout = ({ themeToggler, children, setNavToggle, navToggle }) => {
   return (
     <ContainerStyled>
       <div className='container-switch'>
-        <Switch className='toggle-switch' onChange={themeToggler} />
+        <Switch onChange={themeToggler} />
       </div>
-      <MenuBurguer navToggle={navToggle} setNavToggle={setNavToggle} />
+      <div className='container-hamburguer'>
+        <IconButton onClick={() => setNavToggle(!navToggle)}>
+          <MenuIcon />
+        </IconButton>
+      </div>
       <SidebarStyled navToggle={navToggle}>
         <Profile />
         <Nav />

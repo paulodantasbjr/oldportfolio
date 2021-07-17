@@ -2,12 +2,12 @@ import { HomeDescriptionStyled, HomeIconsStyled } from './styled'
 import HomeStyled from './styled'
 import Link from 'next/link'
 import { GrGithub, GrLinkedin } from 'react-icons/gr'
-//import Particle from '../../components/Particle'
+import Particle from '../../components/Particle'
 
 const Home = () => {
   return (
     <HomeStyled>
-      {/*<Particle />*/}
+      <Particle />
 
       <HomeDescriptionStyled>
         <h1>
