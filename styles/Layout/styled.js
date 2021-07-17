@@ -8,6 +8,8 @@ export const ContainerStyled = styled.div`
     top: 5px;
     right: 5%;
     z-index: 10;
+    display: none;
+
     button {
       padding: 0;
       margin: 0;
