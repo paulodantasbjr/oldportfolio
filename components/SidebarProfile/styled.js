@@ -6,6 +6,7 @@ export const AvatarStyled = styled.header`
   padding: ${({ theme }) => theme.size.md};
   img {
     width: 100%;
+    object-fit: cover;
     border-radius: 50%;
     border: 8px solid ${({ theme }) => theme.mode.border.dark};
   }

@@ -8,7 +8,7 @@ export const AboutDescription = () => {
       <Title title={'Sobre mim'} span={'Sobre mim'} />
       <div className='content'>
         <div className='left-content'>
-          <img src='/img/resume.jpg' alt='' />
+          <img src='/img/perfil2.jpg' alt='' />
         </div>
         <div className='right-content'>
           <h3>Desenvolvedor Full Stack</h3>

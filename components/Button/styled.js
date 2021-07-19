@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ButtonStyled = styled.a`
-  background-color: ${({ theme }) => theme.colors.success.dark};
+  background-color: ${({ theme }) => theme.colors.secondary.main};
   padding-top: ${({ theme }) => theme.spacing.xxs};
   padding-left: ${({ theme }) => theme.spacing.sm};
   padding-bottom: ${({ theme }) => theme.spacing.xxs};
@@ -22,6 +22,6 @@ export const ButtonStyled = styled.a`
   }
   &:hover::after {
     width: 100%;
-    background-color: ${({ theme }) => theme.colors.warning.light};
+    background-color: ${({ theme }) => theme.colors.secondary.light};
   }
 `
