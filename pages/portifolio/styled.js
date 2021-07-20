@@ -16,7 +16,7 @@ export const PortifolioReposStyled = styled.article`
     margin-top: ${({ theme }) => theme.spacing.xl};
     margin-bottom: ${({ theme }) => theme.spacing.sm};
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: ${({ theme }) => theme.spacing.sm};
     @media screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
       margin-top: ${({ theme }) => theme.spacing.lg};

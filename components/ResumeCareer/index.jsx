@@ -59,7 +59,7 @@ export const ResumeCareer = () => {
         />
         <ResumeCareerItem
           year={'2015 - 2019'}
-          title={'Anallise de sistemas'}
+          title={'Analise de sistemas'}
           subTitle={'Instituto Infnet'}
           text={
             'Formação de nível superior enfase em : Análise Estruturada de Sistemas, Análise Orientada a Objetos, Desenvolvimento de Software Seguro, Estrutura de Dados, Linguagens de Programação, Programação e Design para Web, Programação em Banco de Dados, Probabilidade e Estatística e Matemática Aplicada à Informática  '
