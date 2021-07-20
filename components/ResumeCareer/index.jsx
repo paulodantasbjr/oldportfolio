@@ -15,7 +15,7 @@ export const ResumeCareer = () => {
         <IconTitle icon={briefcase} title={'Experiencia profissional'} />
         <ResumeCareerItem
           year={'2021 - Agora'}
-          title={'Analista de processos de dados'}
+          title={'Analista de dados'}
           subTitle={'Stefanini Consultoria e Assessoria em informatica S/A'}
           text={
             'Atuando na gestão dos indicadores junto a Liderança nas reuniões de planejamento estratégico na elaboração e revisão de documentação dos processos, procedimentos e fluxos operacionais. Atuando na melhoria contínua de forma consultiva, trazendo métodos para o desenvolvimento de trabalho.'
