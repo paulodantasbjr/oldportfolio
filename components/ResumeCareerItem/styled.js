@@ -45,7 +45,7 @@ export const ResumeCareerItemStyled = styled.div`
       color: ${({ theme }) => theme.colors.primary.main};
       padding-bottom: 0.4rem;
     }
-    h4 {
+    h5 {
       color: ${({ theme }) => theme.colors.secondary.main};
       padding-bottom: 0.6rem;
     }

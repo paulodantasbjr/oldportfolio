@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ButtonStyled = styled.a`
-  background-color: ${({ theme }) => theme.colors.secondary.main};
+  background-color: ${({ theme }) => theme.colors.primary.main};
   padding-top: ${({ theme }) => theme.spacing.xxs};
   padding-left: ${({ theme }) => theme.spacing.sm};
   padding-bottom: ${({ theme }) => theme.spacing.xxs};

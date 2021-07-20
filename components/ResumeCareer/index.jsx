@@ -48,7 +48,7 @@ export const ResumeCareer = () => {
         />
       </div>
       <div className='resume-content'>
-        <IconTitle icon={school} title={'Educational Qualifications'} />
+        <IconTitle icon={school} title={'Experiencia Educacional'} />
         <ResumeCareerItem
           year={'2021 - 2021'}
           title={'Ignite'}

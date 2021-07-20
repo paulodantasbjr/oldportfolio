@@ -5,6 +5,7 @@ export const ContactItemStyled = styled.div`
   background-color: ${({ theme }) => theme.mode.background.dark};
   display: flex;
   align-items: center;
+  max-width: 600px;
   &:not(:last-child) {
     margin-bottom: 1rem;
   }
@@ -20,7 +21,7 @@ export const ContactItemStyled = styled.div`
   }
 
   .right-content {
-    h5 {
+    h4 {
       color: ${({ theme }) => theme.mode.text.primary};
       padding-bottom: ${({ theme }) => theme.spacing.xxs};
     }

@@ -17,7 +17,7 @@ export const ResumeProgressBarStyled = styled.div`
         left: 0;
         bottom: 0;
         height: 100%;
-        background-color: ${({ theme }) => theme.colors.secondary.main};
+        background-color: ${({ theme }) => theme.colors.primary.main};
       }
     }
   }

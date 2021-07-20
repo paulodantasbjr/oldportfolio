@@ -8,7 +8,7 @@ import { useState } from 'react'
 const Portifolio = ({ repos }) => {
   /******************* PAGINACAO *******************/
   const [pageNumber, setPageNumber] = useState(0)
-  const repoPerPage = 4
+  const repoPerPage = 8
   const pagesVisited = pageNumber * repoPerPage
   const displayRepos = repos
     .slice(pagesVisited, pagesVisited + repoPerPage)

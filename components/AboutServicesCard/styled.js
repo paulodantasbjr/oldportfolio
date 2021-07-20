@@ -7,8 +7,8 @@ export const AboutServicesCardStyled = styled.div`
   border-right: 1px solid ${({ theme }) => theme.mode.border.dark};
   border-bottom: 1px solid ${({ theme }) => theme.mode.border.dark};
   transition: all 0.4s ${({ theme }) => theme.transitions.easeInOut};
-  border &:hover {
-    border-top: 8px solid ${({ theme }) => theme.colors.secondary.main};
+  &:hover {
+    border-top: 8px solid ${({ theme }) => theme.colors.primary.main};
     transform: translateY(3px);
   }
   .container {
@@ -23,7 +23,7 @@ export const AboutServicesCardStyled = styled.div`
       &::after {
         content: '';
         width: ${({ theme }) => theme.spacing.lg};
-        background-color: ${({ theme }) => theme.colors.secondary.main};
+        background-color: ${({ theme }) => theme.colors.primary.main};
         height: 3px;
         position: absolute;
         left: 0;

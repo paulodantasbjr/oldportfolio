@@ -18,7 +18,7 @@ export const ContactContainerStyled = styled.article`
     margin-top: ${({ theme }) => theme.spacing.xl};
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: ${({ theme }) => theme.spacing.lg};
+    grid-column-gap: ${({ theme }) => theme.spacing.xxl};
     @media screen and (max-width: ${({ theme }) => theme.breakpoints.lg}) {
       grid-template-columns: repeat(1, 1fr);
       margin-top: ${({ theme }) => theme.spacing.sm};

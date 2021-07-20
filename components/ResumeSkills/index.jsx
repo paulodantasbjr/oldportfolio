@@ -5,7 +5,7 @@ import { ResumeProgressBar } from '../ResumeProgressBar'
 export const ResumeSkills = () => {
   return (
     <ResumeSkillsStyled>
-      <Title title={'Resumo'} span={'resumo'} />
+      <Title title={'Skills'} span={'skills'} />
       <div className='resume-content'>
         <ResumeProgressBar title={'HTML5'} width={'95%'} text={'95%'} />
         <ResumeProgressBar title={'CSS'} width={'90%'} text={'90%'} />

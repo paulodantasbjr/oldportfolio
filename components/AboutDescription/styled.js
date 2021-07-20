@@ -14,6 +14,7 @@ export const AboutDescriptionStyled = styled.article`
       margin-right: ${({ theme }) => theme.spacing.xs};
       img {
         width: 100%;
+        max-height: 600px;
         object-fit: cover;
       }
       @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {

@@ -8,7 +8,7 @@ export const ResumeCareerItem = ({ year, title, subTitle, text }) => {
       </div>
       <div className='right-content'>
         <h3>{title}</h3>
-        <h4>{subTitle}</h4>
+        <h5>{subTitle}</h5>
         <p>{text}</p>
       </div>
     </ResumeCareerItemStyled>
