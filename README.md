@@ -44,17 +44,17 @@
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Paulo Dantas website" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361" width="400px">
+  <img alt="Paulo Dantas website dark" src="https://github.com/paulodantasrj/portfolio/blob/main/public/img/img1.PNG" width="400px">
 
-  <img alt="Paulo Dantas website" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361" width="400px">
+  <img alt="Paulo Dantas website light" src="https://github.com/paulodantasrj/portfolio/blob/main/public/img/img2.PNG" width="400px">
 </p>
 
 ### Mobile
 
 <p align="center">
-  <img alt="Paulo Dantas website mobile"  src="./assets/home-mobile.png" width="200px">
+  <img alt="Paulo Dantas website mobile"  src="https://github.com/paulodantasrj/portfolio/blob/main/public/img/img3.PNG" width="200px">
 
-  <img alt="Paulo Dantas website mobile"  src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="Paulo Dantas website mobile"  src="https://github.com/paulodantasrj/portfolio/blob/main/public/img/img4.PNG" width="200px">
 </p>
 
 ---
