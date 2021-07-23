@@ -14,16 +14,16 @@
 
 - [Sobre o projeto](#sobre-o-projeto)
 - [Funcionalidades](#-funcionalidades)
-- [Layout](#-layout)
+- [Layout](#layout)
   - [Mobile](#mobile)
   - [Web](#web)
-- [Como executar o projeto](#-como-executar-o-projeto)
+- [Como executar o projeto](#como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
   - [Rodando o projeto](#rodando-o-projeto)
-- [Tecnologias](#-tecnologias)
+- [Tecnologias](#tecnologias)
   - [WebSite](#user-content-website--react----typescript)
 - [Autor](#-autor)
-- [Licença](#user-content--licença)
+- [Licença](#licença)
 <!--te-->
 
 ## 💻 Sobre o projeto
@@ -41,6 +41,8 @@
 
 ## 🎨 Layout
 
+---
+
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
@@ -48,6 +50,8 @@
 
   <img alt="Paulo Dantas website light" src="https://github.com/paulodantasrj/portfolio/blob/main/public/img/img2.PNG" width="400px">
 </p>
+
+---
 
 ### Mobile
 
